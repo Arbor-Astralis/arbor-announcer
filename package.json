@@ -1,0 +1,28 @@
+{
+  "name": "arbor-announcer",
+  "version": "1.0.0",
+  "description": "Periodic message announcer bot for Arbor Astralis",
+  "main": "src/main.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arbor-Astralis/arbor-announcer.git"
+  },
+  "keywords": [
+    "arbor-astralis",
+    "announcer"
+  ],
+  "author": "Haru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arbor-Astralis/arbor-announcer/issues"
+  },
+  "homepage": "https://github.com/Arbor-Astralis/arbor-announcer#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}
