@@ -2,10 +2,10 @@
   "name": "arbor-announcer",
   "version": "1.0.0",
   "description": "Periodic message announcer bot for Arbor Astralis",
-  "main": "src/main.mjs",
+  "main": "src/main.ts",
   "type": "module",
   "scripts": {
-    "start": "node src/main.mjs",
+    "start": "node src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Arbor-Astralis/arbor-announcer#readme",
   "dependencies": {
-    "discord.js": "^14.18.0"
+    "discord.js": "^14.18.0",
+    "typescript": "^5.8.2"
   }
 }
